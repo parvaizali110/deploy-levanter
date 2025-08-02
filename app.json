@@ -29,7 +29,7 @@
     "SESSION_ID": {
       "description": "session id",
       "required": true,
-      "value": ""
+      "value": "your-session-id"
     },
     "STICKER_PACKNAME": {
       "description": "sticker pack info",
@@ -39,12 +39,12 @@
     "HEROKU_APP_NAME": {
       "description": "Heroku app name, same as above entered.",
       "required": true,
-      "value": ""
+      "value": "levanter"
     },
     "HEROKU_API_KEY": {
       "description": "Heroku account api key, https://dashboard.heroku.com/account",
       "required": true,
-      "value": ""
+      "value": "your-api-key"
     },
     "RMBG_KEY": {
       "description": "API key from remove.bg, required for plugin rmbg",
@@ -129,7 +129,7 @@
   },
   "addons": [
     {
-      "plan": "heroku-postgresql:basic"
+      "plan": "heroku-postgresql:essential-0"
     }
   ],
   "buildpacks": [],
